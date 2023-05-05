@@ -1,0 +1,9 @@
+{
+"Produtos" : [
+  {"id": 1, "name": "Piano elétrico","especificacao": "Cassio", "quantidade": 10, "cor": "Prata"},
+  {"id": 2, "name": "Piano acústico","especificacao": "Yamaha", "quantidade":2, "cor": "Preto Brilhante"},
+  {"id": 3, "name": "Órgão","especificacao": "TOKAI", "quantidade":6, "cor": "Marrom claro"}
+
+]
+
+}

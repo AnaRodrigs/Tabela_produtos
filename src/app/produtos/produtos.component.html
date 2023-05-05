@@ -1,0 +1,23 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Quantidada</th>
+      <th scope="col">Cor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let produto of produtos">
+      <th scope="row">{{produto.id}}</th>
+      <td>{{produto.name}}</td>
+      <td>{{produto.especificacao}}</td>
+      <td>{{produto.quantidade}}</td>
+      <td>{{produto.cor}}</td>
+    </tr>
+
+
+
+  </tbody>
+</table>
